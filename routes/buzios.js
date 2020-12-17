@@ -7,9 +7,9 @@ require("dotenv").config();
 // Create connection
 const dbBuzios = mysql.createConnection({
   host: "localhost",
-  user: "buzios",
-  password: "swing102030",
-  database: "buzios"
+  user: "",
+  password: "",
+  database: ""
 });
 
 // Connect
