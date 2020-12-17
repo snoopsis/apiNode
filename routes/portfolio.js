@@ -10,8 +10,8 @@ const hoje = moment().format("DD/MM/YYYY");
 // Create connection
 const dbPortfolio = mysql.createConnection({
   host: "localhost",
-  user: "buzios",
-  password: "swing102030",
+  user: "",
+  password: "",
   database: "portfolio"
 });
 
